@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+p, h3, h4, ul, summary {
+	font-family: 'Roboto', sans-serif;
+    margin: 0 20px 0 20px;
+    color: white;
+}
+
+h3, h4 {
+	padding-top: 20px;
+}
+
+ul {
+	margin-left: 37px;
+}
+
+body {
+	background: #212121;
+	overflow-y: scroll;
+	margin: 0;
+}
+
+header {
+	height: 100px;
+	background-image: url('../images/Background.png');
+	border-bottom: 3px solid #C62828;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+
+#ip-box {	
+	background: #212121;
+	width: 220px;
+    height: 52px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	margin: 0;
+	
+}
+
+#logo {
+	
+	
+}
+
+.teamspeak-box {
+	background: #313131;
+	width: 175px;
+    height: 50px;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+#teamspeak-box-inner {
+	background: #212121;
+    width: 50px;
+    height: 50px;
+	margin: 0;
+}
+
+.wrapper {
+	width: 75%;
+	margin: auto;
+}
+
+nav {
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	text-align: center;	
+}
+
+nav li a {
+	display: block;
+    color: white;
+    text-align: center;
+    //padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+
+
+	
+
+   
+
+
+	
+
+
+
+
