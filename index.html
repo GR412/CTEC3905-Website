@@ -1,51 +1,42 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CRAFT412 - Home</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1" />
 	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen"/>
-  </head>  
+	<title>CRAFT412 - Home</title>
+  </head> 
+  
   <body>
   
     <header>
 	
-	  <p id ="ip-box">SERVER IP<br/>craft412.serveminecraft.net</p>
+	  <!--<p id ="ip-box">SERVER IP<br/>craft412.serveminecraft.net</p>-->
 		  	
-	  <a id="logo" href="index.html">
-		<img src="images/Logo.png" alt="logo"/>
-      </a>
+	  <!--<div id="logo">
+		<a><img src="images/Logo.png" alt="logo"/></a>	
+	  </div>-->
   
-      <a class="teamspeak-box" href="ts3server://craft412.serveminecraft.net:9987">			  
+      <!--<a class="teamspeak-box" href="ts3server://craft412.serveminecraft.net:9987">			  
           <img src="images/Teamspeak-Icon.png" alt="teamspeak-icon"/> 
 		  <p id="teamspeak-box-inner">TEAMSPEAK</p> 
              		  
-	  </a>
-	  	 		 
+	  </a>-->
+	  
+	  <a id="three-lines" href="#">&#9776;</a>
+	  <nav id="top-nav">	  		
+        <a href="index.html" class="active">Home</a>
+        <a href="status.html">Status</a>
+        <a href="info.html">Info</a>
+        <a href="rules.html">Rules</a>
+		<a href="vote.html">Vote</a>
+        <a href="contact.html">Contact</a>	
+	  </nav>
+	  	  	  	 		 
 	</header>
 	
 	<div class="wrapper">
-	
-	  <nav>
-	  
-	    <ul>
-          <li><a href="index.html" id="active-page">Home</a></li>
-          <li><a href="status.html">Status</a></li>
-          <li><a href="info.html">Info</a></li>
-          <li class="dropdown">
-		    <a href="" class="dropdown-button">Gamemodes</a>
-            <div class="dropdown-content">
-              <a href="survival.html">Survival</a>
-              <a href="pure-pvp.html">Pure-PVP</a>
-              <a href="gamesworld.html">Gamesworld</a>
-            </div>
-          </li>
-          <li><a href="rules.html">Rules</a></li>
-		  <li><a href="vote.html">Vote</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-		
-	  </nav>
-	  
+		  
 	  <section>
 	    <img src="images/Home-Banner.png" alt="Shows the server hub spawn"/> 
 	  </section>
@@ -78,5 +69,8 @@
 	  
     </div>
 	
+	<script src="js/scripts.js"></script>
+	
   </body>  
+  
 </html>
