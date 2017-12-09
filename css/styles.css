@@ -23,34 +23,27 @@ body {
 
 header {
   background: #313131;
-  border-bottom: 3px solid #C62828;
-  //display: flex;
-  //flex-direction: row;
-  //justify-content: space-between;
-}
-
-#logo img {
-  width: 160px;
-  height: 50px;
+  //background-image: url('../images/header-background.png');
+  min-height: 50px;
+  border-bottom: 3px solid #C62828; 
+  position: fixed;
+  width: 100%;
 }
 
 #ip-box {	
-	display: none;	
+  display: none;	
 }
 
-.teamspeak-box {
-	display: none;	
-}
-.teamspeak-box img {
-	background: #313131;
+#three-lines {
+  padding: 0 20px 0 20px;
+  position: absolute;
+  top: 0;
+  line-height: 50px;
+  font-size: 20px;
 }
 
-#teamspeak-box-inner {
-    width: 50px;
-    height: 50px;
-	margin: 0;
-	padding-top: 15px;
-	padding-left: 15px;
+#top-nav {
+	margin-top: 50px;
 }
 
 nav {
@@ -59,27 +52,15 @@ nav {
 }
 
 nav a {
-  padding: 1em; /*changes the space around each link item in the menu*/
+  padding: 15px 20px 15px 20px; /*changes the space around each link item in the menu*/
   display: block;
-  
+ 
 }
 
 nav a:hover {
   background-color: #C62828;
-  transition: all 0.25s ease;
-  
+  transition: all 0.25s ease; 
 }
-
-#three-lines {
-  padding: 1em; /*changes the space around the three-lines icon*/
-  display: block;
-  background: #212121;
-}
-
-/*#three-lines:hover {
-  background-color: #C62828;
-  transition: all 0.25s ease;
-}*/
 
 .show-menu {
   display: block;
@@ -89,6 +70,23 @@ a {
   color: white;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
+}
+
+#logo {
+  position: absolute;
+  top: 0;	/* prevents logo moving when nav is selected*/
+  right: 0%; /*keeps the logo right*/
+  margin: 0 20px 0 20px;   
+}
+
+#logo img {
+  width: 134px;
+  height: 40px;
+  margin-top: 6px;
+}
+
+.teamspeak-box {
+	display: none;	
 }
 
 .wrapper {
@@ -107,83 +105,59 @@ main {
 }
 	
 footer {
-	height: 90px;
 	background: white;
 	margin: 20px 0 20px 0;
-    text-align: center;	
+    display: flex;
+	flex-flow: row wrap; /*does both flex-direction and flex wrap*/
+	justify-content: center;
+	align-items: center;
+
 }
 
 footer p {
-	color: black;
-	text-align: center;
-	line-height: 45px;    
+	color: black; 
+	padding: 10px 0 5px 0;  	
+
 }
 
-footer a {
-	
+.icons   {
+	line-height: 50%; /*vertically centers the icons*/
 }
 	
 @media screen and (min-width: 500px) {
 	
   header {
-    height: 100px;
-	width: 100%;
-	background-image: url('../images/Background.png');
-	border-bottom: 5px solid #C62828;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+    min-height: 75px;
+	background: #313131;
+	//background-image: url('../images/header-background.png');
   }
-	
-  #logo img {
-    width: 335px;
-	height: 100px;	
-  }
-	
-  #ip-box {
-    background: #212121;
-	width: 220px;
-	height: 52px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-  }
-	
-  .teamspeak-box {
-    background: #212121;
-	width: 175px;
-	height: 50px;
-	margin: 0;
-	display: flex;
-	flex-direction: row;
-	text-decoration: none;
-  }
-	
-  .teamspeak-box img {
-    background: #313131;
-  }
-	
-  #teamspeak-box-inner {
-    width: 50px;
-	height: 50px;
-	margin: 0;
-	padding-top: 15px;
-	padding-left: 15px;
-  }
-  
+		
   nav a {
-    width: 44%;
 	display: inline-block;
+	width: 44%;
   }
   
   nav a:hover {
-    background: #777;
+  
+  }
+  
+  #three-lines {
+	 padding: 0 35px 0 35px;
+     line-height: 75px; 	
+     font-size: 30px;	
+  }
+  
+  #top-nav {
+	margin-top: 75px; /*ensures that when selecting the first nav item the hover doesn't cover the grey*/
+  }
+
+ #logo img {
+    width: 218px;
+	height: 65px;	
   }
   	
   .wrapper {
-    width: 100%;
+    width: 75%;
     margin: auto;
   }	
   
@@ -197,35 +171,20 @@ footer a {
 	margin: 20px 0 20px 0;
   }
 	
-  footer {
-    height: 45px;
-	background: green;
-	margin: 20px 0 20px 0;
+   footer p {
+	  padding-bottom: 10px;
   }
 	
-  footer p {
-    color: black;
-	float: right;
-	line-height: 45px;
-	display: inline;
-  }
-	
-  footer a  {
-    display: inline;
-  }
-}
-
 @media screen and (min-width: 1000px) {
 	
   header {
-    height: 100px;
-	width: 100%;
-	background-image: url('../images/Background.png');
-	border-bottom: 5px solid #C62828;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+    min-height: 75px;
+    background: #313131;
+	//background-image: url('../images/header-background.png');
+	//display: flex;
+	//flex-direction: row;
+	//flex-wrap: wrap;
+	//justify-content: space-between;
   }
   
   #ip-box {
@@ -261,14 +220,26 @@ footer a {
   }
   
   nav {
-    display: block;
+    display: inline-block;
+	//text-align: center;
+	//margin: 0;		
   }
   nav a {
-    line-height: 3em;
     width: inherit;
+
   }
+  
+  #top-nav {
+	//margin-top: 75px;
+  }
+    
   #three-lines {
     display: none;
+  }
+  
+  #logo img {
+    width: 218px;
+	height: 65px;	
   }
 	
   .wrapper {
@@ -368,20 +339,7 @@ footer a {
 	margin: 20px 0 20px 0;
   }
 	
-  footer {
-    height: 45px;
-	background: white;
-	margin: 20px 0 20px 0;
-  }
-	
   footer p {
-    color: black;
-	float: right;
-	line-height: 45px;
-	display: inline;
-  }
-  
-  footer a {
-    display: inline;
+	  padding-bottom: 10px;
   }
 }
