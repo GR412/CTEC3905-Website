@@ -1,94 +1,93 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CRAFT412 - Contact</title>
-    <meta charset="UTF-8">
-  </head>  
+    <meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link href="css/status.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link rel="icon" href="/images/favicon.ico">
+	<title>CRAFT412 - Status</title>
+  </head> 
+  
   <body>
   
     <header>
-		  
-	  <figure>
-	    <a href="index.html">
-		  <img src="images/Logo.png" alt="logo"/>
-		</a>
-	  </figure>
-		
-	  <section>		
-	    <div class="ip-box"> <!--IP-BOX START-->
-          <p>SERVER IP<br/>craft412.serveminecraft.net</p>
-        </div> <!--IP-BOX END-->
-
-        <div class="teamspeak-box"> <!--TEAMSPEAK-BOX START-->
-          <a href="ts3server://craft412.serveminecraft.net:9987">
-            <div class="teamspeak-box-2"></div>
-            <p>TEAMSPEAK</p>
-            <img src="images/Teamspeak-Icon.png" alt="teamspeak-icon"/>
-		  </a>
-        </div> <!--TEAMSPEAK-BOX END-->		  
-      </section>
-			  
+	
+	<a class="teamspeak-box" href="ts3server://craft412.serveminecraft.net:9987">			  
+      <img src="images/Teamspeak-Icon.png" alt="teamspeak-icon"/> 
+	  <p id="teamspeak-box-inner">TEAMSPEAK</p>             		  
+	</a>
+			  	  
+	<a id="three-lines" href="#">&#9776;</a>
+	<nav id="top-nav">	  		
+      <a href="index.html">Home</a>
+      <a href="status.html" class="active">Status</a>
+      <a href="info.html">Info</a>
+      <a href="rules.html">Rules</a>
+      <a href="vote.html">Vote</a>
+      <a href="contact.html" >Contact</a>	
+	</nav>
+	  
+	<a id="logo" href="index.html"><img src="images/header-logo.png" alt="logo"/></a>	
+	  
+	<p id ="ip-box">SERVER IP<br/>craft412.serveminecraft.net</p>
+	  	  	  	  	  	 		 
 	</header>
 	
 	<div class="wrapper">
-	
-	  <nav>
-	  
-	    <ul>
-          <li><a href="index.html" class="active-page">Home</a>
-          </li>
-          <li><a href="status.html">Status</a>
-          </li>
-          <li><a href="info.html">Info</a>
-          </li>
-          <li><a href="">Gamemodes</a>
-            <ul>
-              <li><a href="survival.html">Survival</a>
-              </li>
-              <li><a href="pure-pvp.html">Pure-PVP</a>
-              </li>
-              <li><a href="gamesworld.html">Gamesworld</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="rules.html">Rules</a>
-          </li>
-          <li><a href="vote.html">Vote</a>
-          </li>
-          <li><a href="contact.html">Contact</a>
-          </li>
-        </ul>
 		
-	  </nav>
-	
 	  <main>
-	  	
+	  	  
+	    <section class="title-banner">
+	        <h3>STATUS</h3> 
+	    </section>
+		  
+		<section id="status-container">			
+	      <a href="http://minecraftservers.org/server/159705" target="_blank">
+            <img src="http://status.minecraftservers.org/classic/159705.png" alt="CRAFT412 Minecraft server">
+	      </a> 
+
+          <p>Please bare in mind this server doesn't run 24/7 as I can't afford it at present.<br>
+             Normal running times are 12:00am - 12:00pm (UK time) (Note, breaks may occur between these times).</p> 
+			 
+			  <section class="box" style="background-color:red;">A</section>
+  <section class="box" style="background-color:lightblue;">B</section>
+
+  
+        </section>
+		
 	  </main>
 	
 	  <footer>
 	  
-	    <summary>Created By GR412 2017</summary>		  
-        <figure>
+	    <p>Created By GR412 2017</p>
+
+        <div class="icons">	
+
 	      <a href="https://www.youtube.com/user/GR412" target="_blank">
-            <img src="images/YouTube-Button.png" alt="youtube-icon"/>
+            <img src="images/youtube-icon.png" alt="youtube-icon"/>
 		  </a>
-	    </figure>
 			
-		</figure>
 	      <a href="http://www.twitch.tv/gr412" target="_blank">
-            <img src="images/Twitch-Button.png" alt="twitch-icon"/> 
+            <img src="images/twitch-icon.png" alt="twitch-icon"/> 
 		  </a>			
-		</figure>
 			
-	    </figure>
           <a href="https://twitter.com/GR412" target="_blank">
-            <img src="images/Twitter-Button.png" alt="twitter-icon"/>
-		  </a>	
-        </figure>
+            <img src="images/twitter-icon.png" alt="twitter-icon"/>
+		  </a>
+
+          <a href="https://github.com/GR412" target="_blank">
+            <img src="images/github-icon.png" alt="github-icon"/>
+		  </a>  
+		  
+		</div>
 			
 	  </footer>
 	  
     </div>
 	
+	<script src="js/nav-button.js"></script>
+	
   </body>  
+  
 </html>
