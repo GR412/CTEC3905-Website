@@ -11,7 +11,7 @@ h3, h4 {
 }
 
 ul {
-  margin-left: 37px;
+  margin-left: -4px;
 }
 
 body {
@@ -95,6 +95,7 @@ a {
 
 main {
   background-color: white;
+  padding-bottom: 20px;
 }
 
 main p {
@@ -109,6 +110,7 @@ main p {
 
 .title-banner h3 {
   padding: 10px 0 10px 0; 
+  color: white;
 }	
 		
 footer {
@@ -169,7 +171,7 @@ footer p {
   .title-banner {
     justify-content: start;
   }
-   	
+     	
   footer p {
 	  padding-bottom: 10px;
   }

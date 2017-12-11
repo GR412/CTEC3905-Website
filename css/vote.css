@@ -1,0 +1,44 @@
+
+main {
+  padding-bottom: 0;
+}
+
+.vote-container {
+
+}
+
+.vote-container p {
+  padding-bottom: 20px;	
+}
+
+.vote-container img {
+   margin: 0 20px 20px 20px;
+   max-width: 90%;   
+}
+					 
+@media screen and (min-width: 500px) {
+	
+  #status-container {
+    justify-content: start;
+    align-items: start;
+  }
+	
+  #status-container img {
+
+  }
+
+  #status-container p {
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  #status-container img {
+	  
+  }
+
+  #status-container p {
+	
+  }	
+}

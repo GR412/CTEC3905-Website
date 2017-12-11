@@ -1,0 +1,76 @@
+
+.contact-container {
+
+}
+
+.contact-container img {
+	
+}
+
+.contact-container h4 {
+  color: black;
+}
+
+input, select, textarea {
+  margin: -10px 0 0 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #2196F3;
+  outline: none;
+  resize: none;
+  width: 190px;
+}
+
+textarea:focus, select:focus, input:focus {
+  border: 2px solid;                         
+  border-color: #2196F3;
+  padding: 4px;
+}
+
+input[type=submit] {
+  width: 80px;
+  height: 35px;
+  background: #1565C0;
+  color: white;                    
+  border: 0 none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-top: 20px;
+}
+
+input[type=submit]:hover {
+  background: #1E88E5;
+  transition: all 0.25s ease;
+}
+
+button, input, select, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+					 
+@media screen and (min-width: 500px) {
+	
+  #status-container {
+    justify-content: start;
+    align-items: start;
+  }
+	
+  #status-container img {
+
+  }
+
+  #status-container p {
+
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  #status-container img {
+	  
+  }
+
+  #status-container p {
+	
+  }	
+}
