@@ -1,8 +1,6 @@
 
 .rules-container {
-  //display: flex;
-  //justify-content: center;
-  //flex-flow: row wrap;
+
 }
 
 .rules-container ul, h3, h4 {                  
@@ -20,37 +18,8 @@
 					 
 @media screen and (min-width: 500px) {
 	
-  #status-container {
-    justify-content: start;
-    align-items: start;
-  }
-	
-  #status-container img {
-
-  }
-
-  #status-container p {
-
-  }
 }
 
 @media screen and (min-width: 1000px) {
 
-  #status-container img {
-	  
-  }
-
-  #status-container p {
-	
-  }	
-}
-
-.box {
-  flex-grow: 1;
-  border: 3px solid rgba(0,0,0,.2);
-}
-
-.box1 {
-  flex-grow: 2;
-  border: 3px solid rgba(0,0,0,.2);
 }

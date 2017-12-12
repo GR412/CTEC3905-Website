@@ -50,27 +50,8 @@ button, input, select, textarea {
 					 
 @media screen and (min-width: 500px) {
 	
-  #status-container {
-    justify-content: start;
-    align-items: start;
-  }
-	
-  #status-container img {
-
-  }
-
-  #status-container p {
-
-  }
 }
 
 @media screen and (min-width: 1000px) {
 
-  #status-container img {
-	  
-  }
-
-  #status-container p {
-	
-  }	
 }

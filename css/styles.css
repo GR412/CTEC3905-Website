@@ -23,10 +23,9 @@ body {
 
 header {
   background: #313131;
-  //background-image: url('../images/header-background.png');
   min-height: 50px;
   border-bottom: 3px solid #C62828; 
-  //position: fixed;
+  /*position: fixed;*/
   width: 100%; 
 }
 
@@ -127,7 +126,7 @@ footer p {
 	padding: 10px 0 5px 0;  	
 }
 
-.icons   {
+.icons {
 	line-height: 50%; /*vertically centers the icons*/
 }
 	
@@ -136,7 +135,6 @@ footer p {
   header {
     min-height: 75px;
 	background: #313131;
-	//background-image: url('../images/header-background.png');
   }
 		
   nav a {
@@ -155,7 +153,7 @@ footer p {
   }
   
   #top-nav {
-	margin-top: 75px; /*ensures that when selecting the first nav item the hover doesn't cover the grey*/
+	margin-top: 75px; 
   }
 
  #logo img {
@@ -174,19 +172,17 @@ footer p {
      	
   footer p {
 	  padding-bottom: 10px;
-  }
+  } 
+}
 	
 @media screen and (min-width: 1000px) {
 	
   header {
     min-height: 0;
     background: #313131;
-	//background-image: url('../images/header-background.png');
 	display: flex;
 	flex-flow: row-reverse wrap;
 	justify-content: space-between;
-	//align-items: center;
-
   }
   
   #ip-box {
@@ -239,11 +235,7 @@ footer p {
 	margin: 0;
 	padding: 15px 0 0 15px;
   }
-  
-  .title-banner {
-    justify-content: start;
-  }
-  	
+    	
   footer p {
 	  padding-bottom: 10px;
   }

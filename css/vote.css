@@ -8,7 +8,7 @@ main {
 }
 
 .vote-container p {
-  padding-bottom: 20px;	
+  padding: 20px 0 20px 0;  
 }
 
 .vote-container img {
@@ -18,27 +18,8 @@ main {
 					 
 @media screen and (min-width: 500px) {
 	
-  #status-container {
-    justify-content: start;
-    align-items: start;
-  }
-	
-  #status-container img {
-
-  }
-
-  #status-container p {
-
-  }
 }
 
 @media screen and (min-width: 1000px) {
 
-  #status-container img {
-	  
-  }
-
-  #status-container p {
-	
-  }	
 }
