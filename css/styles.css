@@ -119,15 +119,16 @@ footer {
 	flex-flow: row wrap; /*does both flex-direction and flex wrap*/
 	justify-content: center;
 	align-items: center;
+	clear: both;
 }
 
 footer p {
-	color: black; 
-	padding: 10px 0 5px 0;  	
+  color: black; 
+  padding: 10px 0 5px 0;  	
 }
 
 .icons {
-	line-height: 50%; /*vertically centers the icons*/
+  line-height: 50%; /*vertically centers the icons*/
 }
 	
 @media screen and (min-width: 500px) {

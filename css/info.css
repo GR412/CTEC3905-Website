@@ -1,0 +1,33 @@
+
+main {
+  margin-bottom: 20px;
+}
+
+.info-container p {
+	line-height: 2em;
+}
+
+.info-container h4 {
+  color: black;
+  padding-bottom: 10px;	
+}
+
+.image-gallery {
+  margin-right: 10px;
+  width: 60%;
+  /*display: block;*/
+  float: left;
+}
+
+.staff-container {
+  margin-left:10px;
+  background-color: green;
+  width: calc(40%-10px);
+  /* display: block; */
+  float: right;
+
+}
+
+.staff-container img {
+  max-width: 100%;	
+}
