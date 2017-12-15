@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 p, h3, h4, ul {
   font-family: 'Roboto', sans-serif;
@@ -83,7 +83,7 @@ a {
   margin-top: 6px;
 }
 
-.teamspeak-box {
+.discord-box {
 	display: none;	
 }
 
@@ -128,7 +128,7 @@ footer p {
 }
 
 .icons {
-  line-height: 50%; /*vertically centers the icons*/
+  line-height: 50%; /*vertically centres the icons*/
 }
 	
 @media screen and (min-width: 500px) {
@@ -217,7 +217,7 @@ footer p {
 	margin: 0;
   }
    
-  .teamspeak-box {
+  .discord-box {
     background: #212121;
 	width: 175px;
 	height: 50px;
@@ -226,11 +226,11 @@ footer p {
 	flex-direction: row;
   }
 	
-  .teamspeak-box img {
+  .discord-box img {
     background: #313131;
   }
 	
-  #teamspeak-box-inner {
+  #discord-box-inner {
     width: 50px;
 	height: 50px;
 	margin: 0;

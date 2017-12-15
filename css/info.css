@@ -13,21 +13,31 @@ main {
 }
 
 .image-gallery {
-  margin-right: 10px;
-  width: 60%;
+  background-color: #191919;
+  /*margin-right: 10px;*/
+  /* width: 60%; */
   /*display: block;*/
-  float: left;
+  /* float: left; */
 }
 
 .staff-container {
-  margin-left:10px;
-  background-color: green;
-  width: calc(40%-10px);
+  /*margin-left:10px;*/
+  background-color: #191919;
+  /* width: 38.5%; */
   /* display: block; */
-  float: right;
-
+  /* float: right; */
+  margin: 20px 0 20px 0;
 }
 
 .staff-container img {
-  max-width: 100%;	
+  cursor: pointer;
+  margin: 20px 20px 20px 20px; 
 }
+
+@media screen and (min-width: 500px) {
+			
+}
+
+@media screen and (min-width: 1000px) {
+}
+
