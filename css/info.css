@@ -12,14 +12,6 @@ main {
   padding-bottom: 10px;	
 }
 
-.image-gallery {
-  background-color: #191919;
-  /*margin-right: 10px;*/
-  /* width: 60%; */
-  /*display: block;*/
-  /* float: left; */
-}
-
 .staff-container {
   /*margin-left:10px;*/
   background-color: #191919;
@@ -32,6 +24,44 @@ main {
 .staff-container img {
   cursor: pointer;
   margin: 20px 20px 20px 20px; 
+}
+
+.image-gallery {
+  background-color: #191919;
+  /*margin-right: 10px;*/
+  /* width: 60%; */
+  /*display: block;*/
+  /* float: left; */
+}
+
+#gallery-preview {	
+  text-align: center;	
+}
+
+#gallery-preview img {
+  max-width: 90%;
+}
+
+#gallery-thumbnails {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery-thumbnails img {
+  margin: 0 0 10px 10px;
+  max-width: 90%;
+  width: 6.875rem;
+  height: 4.0625rem; 
+  box-sizing: border-box;  
+}
+
+#gallery-thumbnails img:hover {
+  border: 2px solid #C62828;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 500px) {

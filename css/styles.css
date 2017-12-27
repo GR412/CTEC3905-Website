@@ -15,17 +15,17 @@ ul {
 }
 
 body {
-  background: #212121;
+  background: #262626;
   overflow-y: scroll;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: #313131;
+  background: #191919;
   min-height: 50px;
   border-bottom: 3px solid #C62828; 
-  /*position: fixed;*/
+  /*position: fixed;*/ /*fixing the header breaks the nav bar*/
   width: 100%; 
 }
 
@@ -68,6 +68,10 @@ a {
   color: white;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
+}
+
+.active {
+  background-color: #C62828;
 }
 
 #logo {
@@ -135,7 +139,7 @@ footer p {
 	
   header {
     min-height: 75px;
-	background: #313131;
+	background: #191919;
   }
 		
   nav a {
@@ -180,14 +184,16 @@ footer p {
 	
   header {
     min-height: 0;
-    background: #313131;
+    /*background-image: url(../images/header-background.png);*/
+	background-color: #191919;
 	display: flex;
 	flex-flow: row-reverse wrap;
+	align-items: center;
 	justify-content: space-between;
   }
   
   #ip-box {
-    background: #212121;
+    background: #262626;
 	width: 220px;
 	height: 52px;
 	display: flex;
@@ -205,38 +211,36 @@ footer p {
   }
   
   nav {
-   display: inline-block;     
+   display: inline-block;
+   background: none;   
   }
   
   nav a {
     width: inherit;
   }
-    
+      
   #logo {
     position: relative;  
-	margin: 0;
+	//margin: 0;
   }
    
   .discord-box {
-    background: #212121;
-	width: 175px;
+    background: #262626;
+	width: 150px;
 	height: 50px;
-	margin: 0;
+	//margin: 0;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	justify-content: center;
   }
 	
   .discord-box img {
-    background: #313131;
+	width: 35px;
+	height: 35px;
+	margin-left: 20px;
   }
-	
-  #discord-box-inner {
-    width: 50px;
-	height: 50px;
-	margin: 0;
-	padding: 15px 0 0 15px;
-  }
-    	
+	 
   footer p {
 	  padding-bottom: 10px;
   }

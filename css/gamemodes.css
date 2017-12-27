@@ -1,4 +1,9 @@
 
+#survival-banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 #survival-banner img {
   max-width: 100%;
@@ -7,6 +12,16 @@
   color: black;	
 }
 
-.survival-container p, ul {margin-top: 10px;}
+.survival-container p, ul {
+  margin-top: 10px;
+}
+
+.discord-box p {
+  color: white;
+}
+
+#ip-box {
+  color: white;
+}
 
 
