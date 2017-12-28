@@ -1,4 +1,18 @@
 
+/*CONTACT FORM START---------------------------*/
+
+#contact-form {
+  margin: 20px 20px 20px 0;
+}
+
+button, input, select, textarea, label {
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  margin: 20px 20px 20px 20px;
+}
+
 input, select, textarea {
   margin: -10px 0 0 20px;
   padding: 5px;
@@ -16,6 +30,8 @@ textarea:focus, select:focus, input:focus {
   padding: 4px;
 }
 
+/*BUTTONS START---------------------------*/
+
 input[type=submit], [type=reset] {
   width: 80px;
   height: 35px;
@@ -32,18 +48,21 @@ input[type=submit]:hover, [type=reset]:hover {
   transition: all 0.25s ease;
 }
 
-button, input, select, textarea, label {
-  font-family: 'Roboto', sans-serif;
+/*BUTTONS END---------------------------*/
+
+/*CONTACT FORM END---------------------------*/
+
+/*GOOGLE MAP API START---------------------------*/
+
+#google-map {
+  height: 500px;
+  width: 100%;
 }
 
-label {
-  margin: 20px 20px 20px 20px;
-}
+/*GOOGLE MAP API END---------------------------*/
 					 
 @media screen and (min-width: 500px) {
-	
 }
 
 @media screen and (min-width: 1000px) {
-
 }

@@ -1,4 +1,6 @@
 
+/*STATUS SECTION START---------------------------*/
+
 .status-container {
   display: flex;
   flex-direction: column;
@@ -15,8 +17,12 @@
   padding: 10px 0 0 0;                    
   line-height: 2em;
 }
+
+/*STATUS SECTION END---------------------------*/
 				 
 @media screen and (min-width: 500px) {
+
+/*STATUS CONTENT SECTION START---------------------------*/
 	
   .status-container {
     justify-content: start;
@@ -26,9 +32,14 @@
   .status-container img {
 	  max-width: 90%;
   }
+  
+/*STATUS CONTENT SECTION END---------------------------*/
+
 }
 
 @media screen and (min-width: 1000px) {
+	
+/*STATUS CONTENT SECTION START---------------------------*/
 	
   .status-container {
     justify-content: start;
@@ -39,4 +50,7 @@
     max-width: 100%;
 	  
   }
+  
+/*STATUS CONTENT SECTION END---------------------------*/
+
 }

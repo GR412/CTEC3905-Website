@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/*GLOBAL SECTION START---------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto); /*Imported font used throughout the website*/
 
 p, h3, h4, ul {
   font-family: 'Roboto', sans-serif;
@@ -14,12 +17,18 @@ ul {
   margin-left: -4px;
 }
 
+/*GLOBAL SECTION END---------------------------*/
+
+/*MOBILE SIZE START---------------------------*/
+
 body {
   background: #262626;
   overflow-y: scroll;
   margin: 0;
   padding: 0;
 }
+
+/*HEADER SECTION START---------------------------*/
 
 header {
   background: #191919;
@@ -30,8 +39,10 @@ header {
 }
 
 #ip-box {	
-  display: none;	
+  display: none; /*The IP box should only be displayed on desktop size*/
 }
+
+/*NAV BAR SECTION START---------------------------*/
 
 #three-lines {
   padding: 0 20px 0 20px;
@@ -71,8 +82,10 @@ a {
 }
 
 .active {
-  background-color: #C62828;
+  background-color: #C62828; /*Allows a user to see what page they're currently on*/
 }
+
+/*NAV BAR SECTION END---------------------------*/
 
 #logo {
   position: absolute;
@@ -88,13 +101,17 @@ a {
 }
 
 .discord-box {
-	display: none;	
+	display: none; /*The Discord box should only be displayed on desktop size*/
 }
+
+/*HEADER SECTION END---------------------------*/
 
 .wrapper {
   width: 100%;
   margin: auto;
 }
+
+/*MAIN SECTION START---------------------------*/
 
 main {
   background-color: white;
@@ -114,7 +131,11 @@ main p {
 .title-banner h3 {
   padding: 10px 0 10px 0; 
   color: white;
-}	
+}
+
+/*MAIN SECTION END---------------------------*/	
+
+/*FOOTER SECTION START---------------------------*/
 		
 footer {
 	background: white;
@@ -134,13 +155,23 @@ footer p {
 .icons {
   line-height: 50%; /*vertically centres the icons*/
 }
+
+/*FOOTER SECTION END---------------------------*/
+
+/*MOBILE SIZE END---------------------------*/
+
+/*TABLET SIZE START---------------------------*/
 	
 @media screen and (min-width: 500px) {
+
+/*HEADER SECTION START---------------------------*/
 	
   header {
     min-height: 75px;
 	background: #191919;
   }
+  
+/*NAV BAR SECTION START---------------------------*/
 		
   nav a {
 	display: inline-block;
@@ -160,27 +191,46 @@ footer p {
   #top-nav {
 	margin-top: 75px; 
   }
+  
+/*NAV BAR SECTION END---------------------------*/
 
  #logo img {
     width: 218px;
 	height: 65px;	
   }
+  
+/*HEADER SECTION END---------------------------*/
   	
   .wrapper {
     width: 75%;
     margin: auto;
   }
   
+/*MAIN SECTION START---------------------------*/
+  
   .title-banner {
     justify-content: start;
   }
+  
+/*MAIN SECTION END---------------------------*/
+
+/*FOOTER SECTION START---------------------------*/
      	
   footer p {
 	  padding-bottom: 10px;
-  } 
+  }
+  
+/*FOOTER SECTION END---------------------------*/
+
 }
+
+/*TABLET SIZE END---------------------------*/
+
+/*DESKTOP SIZE START---------------------------*/
 	
 @media screen and (min-width: 1000px) {
+	
+/*HEADER SECTION START---------------------------*/
 	
   header {
     min-height: 0;
@@ -201,6 +251,8 @@ footer p {
 	justify-content: center;
 	margin: 0;
   }
+  
+/*NAV BAR SECTION START---------------------------*/
 	     
   #three-lines {
     display: none;
@@ -218,6 +270,8 @@ footer p {
   nav a {
     width: inherit; 
   }
+  
+/*NAV BAR SECTION END---------------------------*/
         
   #logo {
     position: relative;  
@@ -244,8 +298,17 @@ footer p {
 	height: 35px;
 	margin-left: 20px;
   }
+  
+/*HEADER SECTION END---------------------------*/
+
+/*FOOTER SECTION START---------------------------*/
 	 
   footer p {
 	  padding-bottom: 10px;
   }
+  
+/*FOOTER SECTION END---------------------------*/
+
 }
+
+/*DESKTOP SIZE END---------------------------*/

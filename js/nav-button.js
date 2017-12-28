@@ -1,11 +1,11 @@
 (function(){
 
-  let menuButton = document.getElementById("three-lines");
-  let navMenu = document.getElementById("top-nav");
+  let menuButton = document.getElementById("three-lines"); //variable that holds a reference to the three lines id
+  let navMenu = document.getElementById("top-nav"); //variable that holds a reference to the top-nav id
 
-  menuButton.addEventListener("click", toggleMenu);
+  menuButton.addEventListener("click", toggleMenu); //attaches an event listener to the menuButton variable, which calls the toggleMenu function when the three lines is clicked
 
-  let toggle = false; // hidden at first
+  let toggle = false; // menu is initially hidden
   function toggleMenu(){
     if (toggle) { // true: it's visible
       navMenu.classList.remove("show-menu"), // hide it
