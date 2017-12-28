@@ -13,7 +13,7 @@
   
     <header> <!--HEADER START-->
 	
-	  <a class="discord-box" href="https://discord.gg/tS47bd" target="_blank">			  
+	  <a class="discord-box" href="https://discord.gg/tS47bd" title="Join the Discord server" target="_blank">			  
         <img src="images/discord-icon.png" alt="discord-icon"/> 
 	    <p>DISCORD</p>             		  
 	  </a>
@@ -44,34 +44,37 @@
 	    </section>
 		
 		<section class="contact-container">
-		  <h4>Playername:</h4>
-          <br>
-          <input type="text" name="playername" maxlength="25" placeholder="Your in-game name" required="required" autocomplete="on">
-          <br>
+		  <form id="contact-form" action="#" method="post">
+            <br>	  
+		    <label for="playername">Playername:</label>
+            <br><br>
+            <input type="text" id="playername" name="playername" maxlength="25" placeholder="Your in-game name" required="required" autocomplete="on">
+            <br><br>
 
-          <h4>Email:</h4>
-          <br>
-          <input type="email" name="email" maxlength="25" placeholder="Your email" required="required" autocomplete="on">
-          <br>
+            <label for="email">Email:</label>
+            <br><br>
+            <input type="email" id="email" name="email" maxlength="25" placeholder="Your email" required="required" autocomplete="on">
+            <br><br>
 
-          <h4>What can we help you with?</h4>
-          <br>
-          <select>
-          <option value="other">Select a topic</option>
-          <option value="ban-appeals">Ban Appeals</option>
-          <option value="bug-report">Bug Report</option>
-          <option value="player-report">Player Report</option>
-          <option value="other">Other</option>
-          </select>
-          <br>
+            <label for="help-option">What can we help you with?</label>
+            <br><br>
+            <select id="help-option" name="help-option">
+              <option value="other">Select a topic</option>
+              <option value="ban-appeals">Ban Appeals</option>
+              <option value="bug-report">Bug Report</option>
+              <option value="player-report">Player Report</option>
+              <option value="other">Other</option>
+            </select>
+            <br><br>
 
-          <h4>Additional Information:</h4>
-          <br>
-          <textarea name="message" maxlength="500" minlength="10"  placeholder="Give details of your request" required="required"></textarea>
-          <br>
-		  
-          <form action='emailReceive.php' method="post">                                 
-          <input type="submit" value="Submit" onclick="alert('We will get back to you soon!')"></form> 		
+            <label for="more-info">Additional Information:</label>
+            <br><br>
+            <textarea id="more-info" name="message" maxlength="500" minlength="10" placeholder="Give details of your request" required="required"></textarea>
+			<br>
+		                                 
+            <input type="submit" id="submit" value="Submit">
+			<input type="reset" value="Clear">
+		  </form> 		
 		</section>
 		    				
 	  </main>
@@ -102,7 +105,8 @@
 	  
     </div> <!--WRAPPER END-->
 	
-	<script src="js/nav-button.js"></script>
+	<script src="js/nav-button.js"></script> <!-- JS file controls the drop down portion of the nav bar-->
+	<script src="js/contact-form.js"></script>
 	
   </body> <!--BODY END-->
   

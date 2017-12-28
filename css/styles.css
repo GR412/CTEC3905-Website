@@ -53,11 +53,11 @@ nav {
 nav a {
   padding: 15px 20px 15px 20px; /*changes the space around each link item in the menu*/
   display: block; 
+  transition: width 2s;
 }
 
 nav a:hover {
   background-color: #C62828;
-  transition: all 0.25s ease; 
 }
 
 .show-menu {
@@ -216,23 +216,27 @@ footer p {
   }
   
   nav a {
-    width: inherit;
+    width: inherit; 
   }
-      
+        
   #logo {
     position: relative;  
-	//margin: 0;
   }
    
   .discord-box {
     background: #262626;
 	width: 150px;
 	height: 50px;
-	//margin: 0;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	border-bottom: 3px solid #191919; /*solves the problem of hover moving the padding by adding an invisible border the same colour of the header background*/
+	//transform: translateZ(1em);
+  }
+  
+  .discord-box:hover {
+    border-bottom: 3px solid #C62828;
   }
 	
   .discord-box img {

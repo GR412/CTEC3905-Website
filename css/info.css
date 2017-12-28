@@ -1,4 +1,6 @@
 
+/*INFO SECTION START---------------------------*/
+
 main {
   margin-bottom: 20px;
 }
@@ -12,8 +14,12 @@ main {
   padding-bottom: 10px;	
 }
 
+/*INFO SECTION END------------------------------*/
+
+/*STAFF SECTION START---------------------------*/
+
 .staff-container {
-  /*margin-left:10px;*/
+  /*margin-left:10px;*/ /*was to allow for the staff and image gallery to be side by side but it didn't work for mobile size*/
   background-color: #191919;
   /* width: 38.5%; */
   /* display: block; */
@@ -21,21 +27,48 @@ main {
   margin: 20px 0 20px 0;
 }
 
-.staff-container img {
+.staff-images {
+  display: inline-block;
+}
+
+.staff-images img {
   cursor: pointer;
   margin: 20px 20px 20px 20px; 
 }
 
+.staff-text {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 5px;
+  transform: translateY(1em);
+  background: #C62828;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.staff-images:hover .staff-text  {
+  transform: translateY(0em);
+  opacity: 1;
+}
+
+/*STAFF SECTION END---------------------------*/
+
+/*IMAGE GALLERY SECTION SECTION START---------*/
+
 .image-gallery {
   background-color: #191919;
-  /*margin-right: 10px;*/
+  /*margin-right: 10px;*/ /*was to allow for the staff and image gallery to be side by side but it didn't work for mobile size*
   /* width: 60%; */
   /*display: block;*/
   /* float: left; */
 }
 
 #gallery-preview {	
-  text-align: center;	
+  text-align: center;
+  margin-top: 20px;  
 }
 
 #gallery-preview img {
@@ -47,7 +80,6 @@ main {
   padding: 20px 0 10px 0;
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: center;
 }
 
@@ -56,13 +88,15 @@ main {
   max-width: 90%;
   width: 6.875rem;
   height: 4.0625rem; 
-  box-sizing: border-box;  
+  border: 2px solid transparent;
 }
 
 #gallery-thumbnails img:hover {
   border: 2px solid #C62828;
   cursor: pointer;
 }
+
+/*IMAGE GALLERY SECTION SECTION END---------*/
 
 @media screen and (min-width: 500px) {
 			
