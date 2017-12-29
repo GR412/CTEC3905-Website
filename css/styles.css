@@ -208,7 +208,7 @@ footer p {
 /*MAIN SECTION START---------------------------*/
   
   .title-banner {
-    justify-content: start;
+    justify-content: flex-start;
   }
   
 /*MAIN SECTION END---------------------------*/
@@ -285,7 +285,6 @@ footer p {
 	align-items: center;
 	justify-content: center;
 	border-bottom: 3px solid #191919; /*solves the problem of hover moving the padding by adding an invisible border the same colour of the header background*/
-	//transform: translateZ(1em);
   }
   
   .discord-box:hover {
