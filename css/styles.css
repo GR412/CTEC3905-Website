@@ -64,7 +64,6 @@ nav {
 nav a {
   padding: 15px 20px 15px 20px; /*changes the space around each link item in the menu*/
   display: block; 
-  transition: width 2s;
 }
 
 nav a:hover {

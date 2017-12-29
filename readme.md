@@ -110,7 +110,7 @@ to control the image gallery. This code came from Stack overflow, where i asked 
 to change a larger preview image. The source can be seen [here](https://stackoverflow.com/questions/47980232/javascript-changing-preview-image-by-clicking-a-thumbnail-image-with-addeventl). 
 
 There were also some other sources that I used from the module GitHub page. These sources include a [Google Map API](https://github.com/CTEC3905/08-lab-json-ajax/tree/googlemaps),
-[responsive design navigation] (https://github.com/CTEC3905/04-lab), [JavaScript - Form Acknowledger](https://github.com/CTEC3905/03-lab-javascript-1).
+[responsive design navigation](https://github.com/CTEC3905/04-lab), [JavaScript - Form Acknowledger](https://github.com/CTEC3905/03-lab-javascript-1).
 
 [This source](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) was also used in order to aid with the use of Flexboxes for the CSS layout.
 
