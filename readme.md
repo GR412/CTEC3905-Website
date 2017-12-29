@@ -1,5 +1,5 @@
 
-#Introduction
+# Introduction
 
 This website is intended to advertise a Minecraft server called CRAFT412 that gives a variety of different information about the Minecraft server.
 It can also allow user intereaction, as opposed to merely being a static website.
@@ -7,7 +7,7 @@ It can also allow user intereaction, as opposed to merely being a static website
 The design of the website will include a number of different pages, rather than being a SPA (single page app). This allows the code to be more maintainable
 and will give a more uniform structure to the code.
 
-#Photoshop Design
+# Photoshop Design
 
 Here you can see the photoshop design mockups
 
@@ -15,7 +15,7 @@ Here you can see the photoshop design mockups
 * [Mobile Design - Hidden Nav](https://github.com/GR412/ctec3905-website/blob/master/photoshop/mobile-size-close-nav-design.png)
 * [Mobile Design - Open Nav](https://github.com/GR412/ctec3905-website/blob/master/photoshop/mobile-size-open-nav-design.png)
 
-#Pages 
+# Pages 
 
 The pages will be the following in order left - right or top - bottom depending on the orientation.
 
